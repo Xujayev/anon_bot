@@ -2,7 +2,7 @@ import os
 from flask import Flask, request
 import telebot
 
-TOKEN = os.environ.get("8455320633:AAFQOMv2DYj3HkLuvcuvuD1zfrustzeb5Ik") 
+TOKEN = os.environ.get("BOT_TOKEN") 
 bot = telebot.TeleBot(TOKEN)
 
 ADMINS = [8129357130]
